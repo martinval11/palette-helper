@@ -5,7 +5,7 @@
     <h1 align="left">Palette Helper</h1>
 </p>
 <p align="left">
-		<em>Create color palettes in seconds!"</em>
+		<em>Create color palettes in seconds!</em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/badge/Astro-FF5D01.svg?style=default&logo=Astro&logoColor=white" alt="Astro">
