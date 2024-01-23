@@ -1,0 +1,10 @@
+---
+import { RandomPalette } from '../components/RandomPalette/RandomPalette';
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav/Nav.astro';
+---
+
+<Layout title="Palette Helper">
+	<Nav />
+  <RandomPalette client:idle />
+</Layout>

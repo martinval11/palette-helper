@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+
+.blocksContainer {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.randomColorsButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background .2s;
+  outline: none;
+
+  &:hover {
+    background: #ccc;
+  }
+}
+
+@media (width <= 835px) {
+  .blocksContainer {
+    flex-direction: column;
+  }
+}
