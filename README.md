@@ -21,12 +21,10 @@
 > - [🤝 Contributing](#-contributing)
 > - [📄 License](#-license)
 
----
 
 ## 📍 Screenshot
 
 <img src="https://github.com/martinval11/palette-helper/blob/main/images/screenshot.png?raw=true"/>
----
 
 ## 🚀 Getting Started
 
