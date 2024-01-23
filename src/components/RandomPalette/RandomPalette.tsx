@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import { generateColor } from '../../lib/generateColor';
 
 import { ColorBlock } from '../ColorBlock/ColorBlock';

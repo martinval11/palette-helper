@@ -24,6 +24,7 @@
     flex-direction: column;
     gap: 6px;
     min-width: 100px;
+    text-shadow: 1px 1px 10px #000;
 
     h3 {
       font-size: 1.4rem;
