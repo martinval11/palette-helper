@@ -32,7 +32,8 @@
 
 Ensure you have the following dependencies installed on your system:
 
-* **<code>► INSERT-TEXT-HERE</code>**: `version x.y.z`
+* **<code>Node.js</code>**: `version 20.11.0`
+* **<code>Bun (optional)</code>**: `version 1.0.25`
 
 ### ⚙️ Installation
 
