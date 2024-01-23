@@ -67,9 +67,9 @@ $ bun dev
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Submit Pull Requests](https://local/src/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://local/src/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://local/src/issues)**: Submit bugs found or log feature requests for Src.
+- **Submit Pull Requests**: Review open PRs, and submit your own PRs.
+- **Join the Discussions**: Share your insights, provide feedback, or ask questions.
+- **Report Issues**: Submit bugs found or log feature requests for Src.
 
 <details closed>
     <summary>Contributing Guidelines</summary>
@@ -103,5 +103,3 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 ## 📄 License
 
 This project is protected under the [MIT](/LICENSE) License. For more details, refer to the [LICENSE](/LICENSE) file.
-
----
