@@ -1,27 +1,56 @@
 .container {
   text-align: center;
+
+  & nav {
+    padding: 6px;
+    border-top: 1px solid var(--nav-border-color);
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .blocksContainer {
   display: flex;
+  justify-content: space-around; /* Distribute remaining space around blocks */
   margin-bottom: 16px;
 }
 
 .randomColorsButton {
   padding: 8px 16px;
-  border: none;
-  border-radius: 3px;
   cursor: pointer;
-  transition: background .2s;
   outline: none;
+  background: transparent;
+  border-radius: 3px;
+  background: var(--random-colors-button-bg);
+  color: var(--random-colors-button-fg);
+  border: 1px solid var(--random-colors-button-border-color);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  & svg {
+    width: 18px;
+    height: 18px;
+    transition: all 0.2s;
+  }
 
   &:hover {
-    background: #ccc;
+    background: #ffffff1a;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+
+  &:active svg {
+    transform: rotate(60deg);
   }
 }
 
 @media (width <= 835px) {
   .blocksContainer {
-    flex-direction: column;
+    display: block;
   }
 }
