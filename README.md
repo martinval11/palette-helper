@@ -10,7 +10,7 @@
 <p align="left">
 	<img src="https://img.shields.io/badge/Astro-FF5D01.svg?style=default&logo=Astro&logoColor=white" alt="Astro">
 	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=default&logo=TypeScript&logoColor=white" alt="TypeScript">
-    <img src="https://img.shields.io/badge/React-61DAFB.svg?style=default&logo=React&logoColor=white" alt="React">
+    <img src="https://img.shields.io/badge/React-61DAFB.svg?style=default&logo=React&logoColor=black" alt="React">
 </p>
 <hr>
 
