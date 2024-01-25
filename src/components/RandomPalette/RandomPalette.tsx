@@ -18,6 +18,7 @@ export function RandomPalette() {
 
   const escFunction = useCallback((event: KeyboardEvent) => {
     if (event.key === ' ' || event.code === 'Space') {
+      event.preventDefault(); // Prevent unexpected scroll jumps when space is pressed
       genFiveRandomColors();
     }
   }, []);
@@ -77,7 +78,7 @@ export function RandomPalette() {
           }}
           id={playing ? 'playing' : ''}
         >
-          <RotateCw/>
+          <RotateCw />
           Random Colors
         </button>
       </nav>
