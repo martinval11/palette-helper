@@ -35,7 +35,7 @@ export function ColorBlock({ color }: { color: string }) {
       style={{ background: `${locked ? savedColor : colorToRender}` }}
     >
       <div className={styles.blockContent}>
-        <h3>{locked ? savedColor : colorToRender}</h3>
+        <h2>{locked ? savedColor : colorToRender}</h2>
 
         <div className={styles.actions}>
           <button onClick={blockColor} title={locked ? 'Unlock' : 'Lock'}>{locked ? <Lock /> : <Unlock />}</button>
